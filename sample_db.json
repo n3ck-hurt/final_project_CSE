@@ -1,0 +1,61 @@
+{
+  "products": [
+     { "product_id": 1, "product_name": "Sachet Shampoo", "category": "Toiletries", "unit": "sachet" },
+    { "product_id": 2, "product_name": "Laundry Detergent", "category": "Toiletries", "unit": "sachet" },
+    { "product_id": 3, "product_name": "Bath Soap", "category": "Toiletries", "unit": "piece" },
+    { "product_id": 4, "product_name": "Toothpaste Sachet", "category": "Toiletries", "unit": "sachet" },
+    { "product_id": 5, "product_name": "Instant Noodles", "category": "Food", "unit": "pack" },
+    { "product_id": 6, "product_name": "Canned Sardines", "category": "Food", "unit": "can" },
+    { "product_id": 7, "product_name": "Canned Tuna", "category": "Food", "unit": "can" },
+    { "product_id": 8, "product_name": "Hotdog Pack", "category": "Food", "unit": "pack" },
+    { "product_id": 9, "product_name": "Bread Loaf", "category": "Food", "unit": "piece" },
+    { "product_id": 10, "product_name": "Bottled Water 500ml", "category": "Drinks", "unit": "bottle" },
+    { "product_id": 11, "product_name": "Soft Drink 1L", "category": "Drinks", "unit": "bottle" },
+    { "product_id": 12, "product_name": "Energy Drink", "category": "Drinks", "unit": "can" },
+    { "product_id": 13, "product_name": "Instant Coffee Sachet", "category": "Drinks", "unit": "sachet" },
+    { "product_id": 14, "product_name": "Sugar 1kg", "category": "Goods", "unit": "bag" },
+    { "product_id": 15, "product_name": "Rice 1kg", "category": "Goods", "unit": "kg" },
+    { "product_id": 16, "product_name": "Cooking Oil 500ml", "category": "Goods", "unit": "bottle" },
+    { "product_id": 17, "product_name": "Corned Beef Can", "category": "Food", "unit": "can" },
+    { "product_id": 18, "product_name": "Biscuits Small Pack", "category": "Snacks", "unit": "pack" },
+    { "product_id": 19, "product_name": "Potato Chips", "category": "Snacks", "unit": "pack" },
+    { "product_id": 20, "product_name": "Chocolate Bar", "category": "Snacks", "unit": "piece" }
+  ],
+
+  "suppliers": [
+    {"supplier_id": 1,"supplier_name": "ABC Distributors","contact_number": "09123456789","address": "Quezon City" },
+    {"supplier_id": 2, "supplier_name": "FreshFoods Supply Co.","contact_number": "09987654321","address": "Makati City" },
+    {"supplier_id": 3,"supplier_name": "Daily Essentials Trading","contact_number": "09223334455","address": "Pasig City"},
+    {"supplier_id": 4,"supplier_name": "Beverage Masters Inc.","contact_number": "09112223344","address": "Taguig City"},
+    {"supplier_id": 5,"supplier_name": "Snacks Unlimited","contact_number": "09334445566","address": "Caloocan City"},
+    {"supplier_id": 6, "supplier_name": "GoodGoods Wholesale","contact_number": "09175553322","address": "Manila"},
+    {"supplier_id": 7, "supplier_name": "FastFood Products","contact_number": "09556667788","address": "Pasay City"},
+    {"supplier_id": 8,"supplier_name": "TopChoice Retail Supply","contact_number": "09443332211","address": "Valenzuela City"},
+    {"supplier_id": 9, "supplier_name": "Household Basics", "contact_number": "09221110099", "address": "Marikina City"},
+    {"supplier_id": 10, "supplier_name": "MegaDrinks Distributor","contact_number": "09776655443","address": "Mandaluyong City"}
+  ],
+
+  "icecream": [
+    { "icecream_id": 1, "flavor": "Selecta Super Thick Chocolate", "size": "1.3L", "price": 160.00, "stock": 12 },
+    { "icecream_id": 2, "flavor": "Selecta Very Strawberry", "size": "1.3L", "price": 160.00, "stock": 10 },
+    { "icecream_id": 3, "flavor": "Selecta Cookies & Cream", "size": "1.3L", "price": 165.00, "stock": 8 },
+    { "icecream_id": 4, "flavor": "Selecta Rocky Road", "size": "1.3L", "price": 170.00, "stock": 7 },
+    { "icecream_id": 5, "flavor": "Selecta Double Dutch", "size": "1.3L", "price": 165.00, "stock": 9 },
+    { "icecream_id": 6, "flavor": "Selecta Ube Keso", "size": "1.3L", "price": 165.00, "stock": 11 },
+    { "icecream_id": 7, "flavor": "Selecta Mango Graham", "size": "1.3L", "price": 175.00, "stock": 6 },
+    { "icecream_id": 8, "flavor": "Selecta Choco Mallow", "size": "750ml", "price": 85.00, "stock": 15 },
+    { "icecream_id": 9, "flavor": "Selecta Cookies & Cream", "size": "750ml", "price": 90.00, "stock": 14 },
+    { "icecream_id": 10, "flavor": "Selecta Coffee Crumble", "size": "750ml", "price": 90.00, "stock": 12 },
+    { "icecream_id": 11, "flavor": "Selecta Vanilla", "size": "100ml Cup", "price": 25.00, "stock": 35 },
+    { "icecream_id": 12, "flavor": "Selecta Chocolate", "size": "100ml Cup", "price": 25.00, "stock": 30 },
+    { "icecream_id": 13, "flavor": "Selecta Ube", "size": "100ml Cup", "price": 25.00, "stock": 28 },
+    { "icecream_id": 14, "flavor": "Selecta Keso", "size": "100ml Cup", "price": 25.00, "stock": 25 },
+    { "icecream_id": 15, "flavor": "Selecta Cornetto Chocolate", "size": "Cone", "price": 30.00, "stock": 40 },
+    { "icecream_id": 16, "flavor": "Selecta Cornetto Cookies & Cream", "size": "Cone", "price": 30.00, "stock": 38 },
+    { "icecream_id": 17, "flavor": "Selecta Cornetto Black & White", "size": "Cone", "price": 35.00, "stock": 32 },
+    { "icecream_id": 18, "flavor": "Selecta Magnum Classic", "size": "80ml Bar", "price": 65.00, "stock": 22 },
+    { "icecream_id": 19, "flavor": "Selecta Magnum Almond", "size": "80ml Bar", "price": 70.00, "stock": 20 },
+    { "icecream_id": 20, "flavor": "Selecta Magnum Infinity Chocolate", "size": "80ml Bar", "price": 75.00, "stock": 18 }
+  ]
+  
+}
