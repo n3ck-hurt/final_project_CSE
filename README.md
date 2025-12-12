@@ -18,8 +18,8 @@ pip install -r requirements.txt
 (Optional) Configure your MySQL connection by creating a .env file with the following content:
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=cse_final_project
+DB_PASSWORD=estares223
+DB_NAME=sari-sari_store
 DB_PORT=3306
 
 Start the development server:
@@ -50,7 +50,3 @@ python -m pytest tests/test_students_api.py -v
 The tests use a mock in-memory database and do not require a real MySQL instance.
 
 Notes
-
-Do not include the .venv folder in your GitHub repository.
-
-The database contains a students table with the following fields: id, name, email, major, and gpa.
