@@ -15,7 +15,7 @@ jwt = JWTManager(app)
 
 DEMO_USER = {"username": "admin", "password": "admin"}
     
-# ============ AUTHENTICATION ============
+
 
 @app.route("/login", methods=["POST"])
 def login():
@@ -25,10 +25,9 @@ def login():
     if username == DEMO_USER["username"] and password == DEMO_USER["password"]:
         access_token = create_access_token(identity=username)
         return jsonify(access_token=access_token), 200
-    return jsonify({"msg": "Bad credentials"}), 401
+    return jsonify({"msg": "wrong credentials"}), 401
 
 
-# ============ HELPER FUNCTIONS ============
 
 def to_format(data, fmt):
     """Convert response to specified format (JSON or XML)."""
@@ -155,7 +154,7 @@ def validate_student_payload(payload, partial=False):
     return errors
 
 
-# ============ PAGE ROUTES ============
+
 
 @app.route('/')
 def home():
@@ -173,7 +172,6 @@ def home():
     })
 
 
-# ============ PRODUCTS API ============
 
 @app.route('/api/products', methods=['GET'])
 @jwt_required(optional=True)
@@ -266,7 +264,7 @@ def delete_product(item_id):
     return jsonify({"msg": "deleted"}), 200
 
 
-# ============ SUPPLIERS API ============
+
 
 @app.route('/api/suppliers', methods=['GET'])
 @jwt_required(optional=True)
@@ -451,7 +449,6 @@ def delete_icecream(item_id):
     return jsonify({"msg": "deleted"}), 200
 
 
-# ============ STUDENTS API ============
 
 @app.route('/api/students', methods=['GET'])
 @jwt_required(optional=True)
